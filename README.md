@@ -1,3 +1,9 @@
+### Challenge 1: Student Grade Generator (Toy Problem)
+
+Write a function that prompts the user to input student marks. The input should be between 0 and 100. The output should correspond the correct grade, as shown below: 
+
+        A > 79, B - 60 to 79, C -  59 to 49, D - 40 to 49, E - less 40.
+
 ### Student grade generator
 -The code includes an html file linked to a js file.
 -The html file has a basic structure including a body with a simple header,a small paraghraph and a button that is used to prompt the user to input a mark and is linked to the function gradeGenerator() in the js file. Once clicked it executes the function.
