@@ -33,10 +33,34 @@ function calculator(){
         nhif = 300;
     }else if(gross <= 11999){
         nhif = 400;
+    }else if(gross <= 14999){
+        nhif = 500;
     }else if(gross <= 19999){
         nhif = 600;
-    }else{
+    }else if(gross <= 24999){
+        nhif = 750;
+    }else if(gross <= 29999){
+        nhif = 850;
+    }else if(gross <= 34999){
         nhif = 900;
+    }else if(gross <= 39999){
+        nhif = 950;
+    }else if(gross <= 44999){
+        nhif = 1000;
+    }else if(gross <= 49999){
+        nhif = 1100;
+    }else if(gross <= 59999){
+        nhif = 1200;
+    }else if(gross <= 69999){
+        nhif = 1300;
+    }else if(gross <= 79999){
+        nhif = 1400;
+    }else if(gross <= 89999){
+        nhif = 1500;
+    }else if(gross <= 99999){
+        nhif = 1600;
+    }else{
+        1700;
 
     };
 
